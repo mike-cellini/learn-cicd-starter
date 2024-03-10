@@ -20,7 +20,7 @@ jobs:
           go-version: '1.20'
 
       - name: Setup goose
-        run: go install github.com/pressly/v3/cmd/goose@latest
+        run: go install github.com/pressly/goose/v3/cmd/goose@latest
 
       - name: Build
         run: ./scripts/buildprod.sh
