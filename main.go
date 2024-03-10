@@ -25,7 +25,7 @@ type apiConfig struct {
 var staticFiles embed.FS
 
 func unused() {
-    // this func does nothing and is called nowhere
+	// this func does nothing and is called nowhere
 }
 
 func main() {
